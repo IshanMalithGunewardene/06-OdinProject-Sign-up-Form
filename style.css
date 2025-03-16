@@ -92,10 +92,6 @@ img {
     padding-left: 2%;
 }
 
-.signup-form__input {
-    margin: 10px;
-    padding: 5px;
-}
 
 .signup-form__input-containers {
     /* border: 2px solid rgb(255, 0, 234); */
@@ -104,6 +100,16 @@ img {
     width: 65%;
     margin: 3%;
     font-weight: 500;
+}
+
+.signup-form__input {
+    margin: 10px;
+    padding: 5px;
+}
+.signup-form__input:focus {
+    outline: none;
+    border: 2px solid blue;
+    box-shadow: 0 0 7px rgba(0, 0, 255, 0.3);
 }
 
 label {
